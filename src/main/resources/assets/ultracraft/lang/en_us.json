@@ -1,0 +1,13 @@
+{
+  "itemGroup.ultracraft": "Example Mod Tab",
+  "block.ultracraft.example_block": "Example Block",
+  "item.ultracraft.example_item": "Example Item",
+
+  "ultracraft.configuration.title": "ultracraft Configs",
+  "ultracraft.configuration.section.ultracraft.common.toml": "ultracraft Configs",
+  "ultracraft.configuration.section.ultracraft.common.toml.title": "ultracraft Configs",
+  "ultracraft.configuration.items": "Item List",
+  "ultracraft.configuration.logDirtBlock": "Log Dirt Block",
+  "ultracraft.configuration.magicNumberIntroduction": "Magic Number Text",
+  "ultracraft.configuration.magicNumber": "Magic Number"
+}
