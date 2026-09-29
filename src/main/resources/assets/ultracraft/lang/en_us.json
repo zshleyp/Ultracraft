@@ -1,7 +1,9 @@
 {
   "itemGroup.ultracraft": "Example Mod Tab",
-  "block.ultracraft.example_block": "Example Block",
-  "item.ultracraft.example_item": "Example Item",
+  "block.ultracraft.blood_tank_block": "Example Block",
+  "item.ultracraft.blood_tank_item": "Blood Tank",
+
+  "tooltip.ultracraft.blood_container": "%f oz",
 
   "ultracraft.configuration.title": "ultracraft Configs",
   "ultracraft.configuration.section.ultracraft.common.toml": "ultracraft Configs",

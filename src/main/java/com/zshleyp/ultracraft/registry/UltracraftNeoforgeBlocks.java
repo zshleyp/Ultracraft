@@ -14,7 +14,7 @@ public class UltracraftNeoforgeBlocks {
     static final DeferredRegister.Blocks BLOCKS = DeferredRegister.Blocks.createBlocks(Ultracraft.MODID);
     public static final DeferredBlock<Block> BLOOD_TANK_BLOCK = BLOCKS.register("blood_tank",
         () -> new BloodTankBlock(
-            BlockBehaviour.Properties.ofFullCopy(Blocks.COPPER_BLOCK).noLootTable()
+            BlockBehaviour.Properties.ofFullCopy(Blocks.COPPER_BLOCK)
         ));
 
     public static void register(IEventBus modEventBus) {

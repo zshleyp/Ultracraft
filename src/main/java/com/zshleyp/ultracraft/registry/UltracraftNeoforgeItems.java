@@ -1,12 +1,10 @@
 package com.zshleyp.ultracraft.registry;
 
 import com.zshleyp.ultracraft.Ultracraft;
-import com.zshleyp.ultracraft.content.block.BloodTankBlock;
 import com.zshleyp.ultracraft.content.item.*;
 
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.BottleItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -26,7 +24,9 @@ public final class UltracraftNeoforgeItems {
         ));
 
     public static final DeferredItem<BlockItem> BLOOD_TANK_ITEM = ITEMS.register("blood_tank",
-        () -> new BloodTankItem(UltracraftNeoforgeBlocks.BLOOD_TANK_BLOCK.get(), new Item.Properties())
+        () -> new BloodTankItem(UltracraftNeoforgeBlocks.BLOOD_TANK_BLOCK.get(), new Item.Properties()
+            .stacksTo(1)
+        )
     );
 
     public static void register(IEventBus modEventBus) {
